@@ -16,7 +16,7 @@ iOS-一个自定义封装的 ActionSheet, 传入一组数组即可.集成简单.
 - 集成方便
 -不支持横屏-转屏
 
-###### 3.使用方法
+##### 3.使用方法
 1.导入头文件,`#import "SJActionSheet.h"`
 2.初始化--一行代码搞定,传入一个数组即可,可以传入标题.回调的 block 包含选中的 index 和 title.
 ```
@@ -28,7 +28,7 @@ iOS-一个自定义封装的 ActionSheet, 传入一组数组即可.集成简单.
                 [weakSelf.tableView reloadData];
             }];
 ```
-3.一共三种样式,默认类似系统风格,微信风格,表格风格
+##### 4.一共三种样式,默认类似系统风格,微信风格,表格风格
 ```
 typedef NS_ENUM(NSInteger, SJSheetStyle)
 {
@@ -59,7 +59,7 @@ typedef NS_ENUM(NSInteger, SJSheetStyle)
 //是否统一处理取消按钮事件
 @property (nonatomic,assign)BOOL isUnifyCancelAction;
 ```
-4.代理方法- 一个初始化,一个代理回调
+##### 5.代理方法- 一个初始化,一个代理回调
 ```
 //初始化方法, title不传则不显示, tableView 当 item 显示不完的时候可以滑动, style 默认是 UIActionSheet 样式
 - (id)initSheetWithTitle:(NSString *)title
@@ -69,7 +69,7 @@ typedef NS_ENUM(NSInteger, SJSheetStyle)
 //回调 block 中包含选中的 index 和 title -- 也可实现代理方法获取选中的数据
 - (void)didFinishSelectIndex:(SelectIndexBlock)block;
 ```
-5.根据需求可自己改变
+##### 6.根据需求可自己改变
 改变可在-- SJActionSheet.m 中进行,根据项目需求,进行定制.
 
 ###没错,就这么简单, GitHub 地址 https://github.com/ssj1314/SJActionSheetOC,请给出意见,谢谢啦
