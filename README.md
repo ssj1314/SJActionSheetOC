@@ -1,20 +1,22 @@
 # SJActionSheetOC
 iOS-一个自定义封装的 ActionSheet, 传入一组数组即可.集成简单.
->######iOS 本身的 ActionSheet 比较单一,很多时候满足不了需求,所以很多封装就出现了,百家争鸣,各有一长,没有最好,只有更好.给大家安利一个比较实用的项目--https://github.com/ssj1314/SJActionSheetOC,只需要传入一组数组即可实现.显示风格可高度自定义,可满足特定情况下的需求.
+>iOS 本身的 ActionSheet 比较单一,很多时候满足不了需求,所以很多封装就出现了,百家争鸣,各有一长,没有最好,只有更好.给大家安利一个比较实用的项目--https://github.com/ssj1314/SJActionSheetOC,只需要传入一组数组即可实现.显示风格可高度自定义,可满足特定情况下的需求.
 
 ![SJActionSheet.gif](http://upload-images.jianshu.io/upload_images/1761100-9a463657bc8621e3.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-#####1.环境要求
+##### 1.环境要求
 - iOS 7.0+
 - Xcode 7.0+
 - Objective-C 
-#####2.介绍
+
+##### 2.介绍
 - 代理回调
 - 文字颜色可自定义
 - 初始化简单
 - 集成方便
 -不支持横屏-转屏
-######3.使用方法
+
+###### 3.使用方法
 1.导入头文件,`#import "SJActionSheet.h"`
 2.初始化--一行代码搞定,传入一个数组即可,可以传入标题.回调的 block 包含选中的 index 和 title.
 ```
