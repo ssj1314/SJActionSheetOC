@@ -72,4 +72,4 @@ typedef NS_ENUM(NSInteger, SJSheetStyle)
 ##### 6.根据需求可自己改变
 改变可在-- SJActionSheet.m 中进行,根据项目需求,进行定制.
 
-###没错,就这么简单, GitHub 地址 https://github.com/ssj1314/SJActionSheetOC,请给出意见,谢谢啦
+###没错,就这么简单,  简书 地址 http://www.jianshu.com/p/3a41a70f0fba,请给出意见,谢谢啦
