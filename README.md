@@ -1,6 +1,7 @@
 # SJActionSheetOC
 iOS-一个自定义封装的 ActionSheet, 传入一组数组即可.集成简单.
->iOS 本身的 ActionSheet 比较单一,很多时候满足不了需求,所以很多封装就出现了,百家争鸣,各有一长,没有最好,只有更好.给大家安利一个比较实用的项目--https://github.com/ssj1314/SJActionSheetOC,只需要传入一组数组即可实现.显示风格可高度自定义,可满足特定情况下的需求.
+>iOS 本身的 ActionSheet 比较单一,很多时候满足不了需求,所以很多封装就出现了,百家争鸣,各有一长,没有最好,只有更好.给大家安利一个比较实用的项目https://github.com/ssj1314/SJActionSheetOC,
+只需要传入一组数组即可实现.显示风格可高度自定义,可满足特定情况下的需求.
 
 ![SJActionSheet.gif](http://upload-images.jianshu.io/upload_images/1761100-9a463657bc8621e3.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
